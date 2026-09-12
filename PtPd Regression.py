@@ -46,7 +46,6 @@ tickers = {
 
 }
 
-# Add these to your master dictionary
 
 tickers.update({
 
@@ -144,7 +143,6 @@ def run_correlations(variables, lags, include_lags=True):
     # 5. Calculate Correlation Matrix
     corr_matrix = df_combined.corr()
 
-    # Save the dataset to CSV if you want to inspect the exact numbers for your regressions later
     df_combined.to_csv("returns_and_lags_15yr.csv")
 
     # 6. Plot the Heatmap
