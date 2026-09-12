@@ -1,2 +1,2 @@
 # Platinum-Palladium-Future-Price-Modeling
-Built multi-factor models for platinum and palladium futures.
+This program has many features, firstly creating regression models for platinum and palladium futures. These multi factor models can be custom built using stocks, commodities, major economic indices. and alternative data from FRED, with time lagging available. Additionally, correlation scanning and visual plots can be generated over large financial data sets to explore relationships in the market.
